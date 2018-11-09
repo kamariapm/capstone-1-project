@@ -1,0 +1,93 @@
+body{
+    background: #ffecb3
+}
+
+/* Tictactoe Box */
+.container{
+    width: 500px;
+}
+
+.jumbotron{
+    background: #b9f6ca;
+    color: #ef9a9a
+}
+
+#boxes{
+    background-color: #eeeeee;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: #ef9a9a;
+}
+
+.col-sm:hover{
+    /* background-color: #90caf9 */
+    background-color: #fffde7
+}
+
+/* Manipulate Rows */
+#row1{
+
+height: 150px;
+font-size: 115px;
+text-align: center;
+border-bottom: solid white;
+margin-bottom: 0%;
+
+}
+
+
+#row2{
+height: 150px;
+font-size: 115px;
+text-align: center;
+border-bottom: solid white;
+margin-bottom: 0%;
+
+}
+
+#row3{
+height: 150px;
+font-size: 115px;
+text-align: center;
+margin-bottom: 0%;
+
+}
+
+/* Manipulate middle boxes */
+#row1Box2{
+    border-left: solid white;
+    border-right: solid white; 
+    height: 150px;
+    font-size: 115px;
+    text-align: center;
+    border-bottom: solid white;
+
+}
+
+#row2Box2{
+    height: 150px;
+    font-size: 115px;
+    text-align: center;
+    border-bottom: solid white;
+    border-left: solid white;
+    border-right: solid white;
+    margin-top: 0%
+}
+
+#row3Box2{
+    height: 150px;
+    font-size: 115px;
+    text-align: center;
+    border-left: solid white;
+    border-right: solid white;
+}
+
+#resetButton{
+    width: 200px;
+    background-color: #42a5f5;
+    margin-left: 42%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 1px #b0bec5;
+    padding: 8px;
+    color: white;
+}

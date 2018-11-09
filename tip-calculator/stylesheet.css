@@ -1,0 +1,172 @@
+body{ 
+    /* background-color: gray; */
+/* background-color: #ffebee ; */
+background-color: #b2dfdb;
+    color: black;
+
+}
+
+.jumbotron{
+    /* background: #ff8a80; */
+    background: #ffcdd2;
+
+    color: white;
+}
+
+#smallText{
+    font-size: medium
+}
+
+#topTotals{
+    border-bottom: #ff8a80
+}
+
+
+#header{
+    text-align: center;
+    font-family: fantasy
+
+}
+
+#submitButton{
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 5%;
+    background: #ff8a80;
+    margin-left: 20%
+}
+
+#resetButton{
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: -7%;
+    background: #ff8a80;
+    margin-left: 50%
+ }
+
+#submit{
+    margin-right: 0%
+
+}
+ 
+
+#billField{
+    padding: -2%;
+    /* border-bottom:solid #ef9a9a */
+}
+
+#amount{
+    background-color:#ffebee;    
+    color: #00acc1;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 300px;
+    height: 55px;
+    text-align: center;
+}
+#totalPerPerson{
+    background-color:#ffebee;
+    color: #00acc1;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 300px;
+    height: 55px;
+    text-align: left ;
+ }
+
+#billAmount{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+/* margin-top: 2%; */
+/* margin-left: -80%;
+text-align: center; */ 
+}
+
+#perPersonAmount{
+    font-size: large;
+     font-weight: bold;
+     text-align: center;
+     /* margin-top: -3%;
+     margin-left: 75%;
+      */ 
+ }
+ 
+#percentage{
+    background-color: #ef9a9a; 
+    color: white;
+    font-weight: bold;
+    border-radius: 5px
+ }
+
+ #input{
+     border-right: solid white;
+     margin-top: 0%;
+     margin-bottom: -2%;
+     background: #dcedc8;
+
+ }
+
+ #tipAmount{
+     margin-top: 2%;
+ }
+ #output{
+     margin-bottom:-1%;
+     margin-top: 1%;
+     margin-bottom: -2%;
+     background: #dcedc8;
+   
+ }
+
+ #inputOutput{
+background: #dcedc8;
+border-top: solid #ff8a80;
+border-bottom: solid #ff8a80;
+border-left: solid#ff8a80;
+border-right: solid #ff8a80;
+/* padding: 2%; */
+margin-left: 2%;
+margin-right: 2%
+ }
+
+ #totalPeople{
+    background-color: #ef9a9a;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px  
+ }
+ /* Final tip Amount */
+ #tip{
+    background-color: #ffcdd2 ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 2%;
+     
+ }
+ /* Total Final Amount */
+ 
+ /* Maniputlate Text Field */
+ #totalField{
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+    margin-top: 2%;
+    margin-left: 0%;
+ }
+
+
+
+ #total{
+    background-color: #ffcdd2 ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 0%
+ }
+
+ #reset{
+    margin-top: 5%;
+
+ }
